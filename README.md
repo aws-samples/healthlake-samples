@@ -1,11 +1,8 @@
-## My Project
+# Sample code to interact with Amazon HealthLake service.
 
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+## Prerequisites:
+- Install the required Python packages. "`pip3 install requirements.txt`"
+- Configure AWS Access Key and Secret Access Key either by exporting the values of "`AWS_ACCESS_KEY_ID`" and "`AWS_SECRET_ACCESS_KEY`" or by using "aws configure" CLI command.
 
 ## Security
 
