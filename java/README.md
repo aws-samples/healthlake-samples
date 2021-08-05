@@ -7,10 +7,10 @@
 ## How to run?
 - Clone the repo `git clone https://github.com/aws-samples/healthlake-samples.git`
 - Traverse to java folder `cd healthlake-samples/java`
-- Build the java project `gradlew build` or `gradle build`
+- Build the java project `./gradlew build` on Mac or `gradlew.bat build` on windows or `gradle build` (if gradle cli is installed)
 - Run the application from console : 
 - To List all HealthLake datastores `java -jar build/libs/healthlake-0.0.1-SNAPSHOT.jar` 
-- To describe a specific datastore `java -jar build/libs/healthlake-0.0.1-SNAPSHOT.jar <Datastore_ID>
+- To describe a specific datastore `java -jar build/libs/healthlake-0.0.1-SNAPSHOT.jar <Datastore_ID>`
 
 ## Security
 
