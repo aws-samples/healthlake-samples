@@ -1,15 +1,7 @@
 # Sample code to interact with Amazon HealthLake service.
 
-## Repo Organization
-- hl-BATCH-operations folder contain samples in different lanagues (for now in Python) to perform batch operations. Think of a batch operation as creating multiple patient resources in Amazon HealthLake from a file (ndjson with multiple records).
-- hl-CRUD-operations folder contains samples to perform get, post, put and delete operations on a single resource in HealthLake.
-- hl-MGMT-operations folder contains samples to perform management operations like listing all HealthLake datastores in an AWS Account, describing a specific HealthLake datastore or creating a HealthLake datastore (with Synthetic data from Synthea)
-
 ## Prerequisites:
 - Configure AWS Access Key and Secret Access Key either by exporting the values of "`AWS_ACCESS_KEY_ID`" and "`AWS_SECRET_ACCESS_KEY`" or by using "aws configure" CLI command.
-
-## Python
-- Install the required Python packages. "`pip3 install requirements.txt`"
 
 ## Java
 - JDK 8 or above
