@@ -1,5 +1,7 @@
 # Sample code to interact with Amazon HealthLake service.
 
+You can see specific instructions under each language folder. 
+
 ## Repo Organization
 - hl-BATCH-operations folder contain samples in different lanagues (for now in Python) to perform batch operations. Think of a batch operation as creating multiple patient resources in Amazon HealthLake from a file (ndjson with multiple records).
 - hl-CRUD-operations folder contains samples to perform get, post, put and delete operations on a single resource in HealthLake.
