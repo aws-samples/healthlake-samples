@@ -10,6 +10,6 @@
 - Sample input files for POST operation code are available in "`hl-BATCH-operations/Sample-Input-Files`" folder
 - Example command line invocation:
   ```
-  python3 hl-BATCH-operations/hl-ndjson-process.py https://healthlake.us-east-1.amazonaws.com/datastore/<data_store_id>/r4/ hl-BATCH-operations/Sample-Input-Files/sample_patients.ndjson us-east-1
+  python3 hl-BATCH-operations/python/hl-ndjson-process.py https://healthlake.us-east-1.amazonaws.com/datastore/<data_store_id>/r4/ hl-BATCH-operations/Sample-Input-Files/sample_patients.ndjson us-east-1
   ```
 - When in doubt, use the "`-h`" or "`--help`" option available in each of these Python scripts to understand the required inputs and the order in which they are expected. For example: "`python3 hl-ndjson-process.py -h`"
